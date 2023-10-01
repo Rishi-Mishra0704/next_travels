@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+  html{
+    @apply overflow-hidden
+  }
   button {
     @apply border py-2 px-3 rounded-full
   }
